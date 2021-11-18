@@ -36,7 +36,7 @@ module.exports = {
 		let cctroops;
 		let user; 
 		let clashurl;
-		const dbURI = "mongodb+srv://rebel:1234@cluster0.0lyb0.mongodb.net/Cluster0?retryWrites=true&w=majority";
+		const dbURI = "";
 		mongoose.connect(dbURI);		
 		user = message.author.id;
 		const filter = m => m.author.id == message.author.id;
